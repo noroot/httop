@@ -1,11 +1,16 @@
 # HTTOP
 
-A real-time HTTP log monitor similar to ApacheTop, written in Rust. This tool allows you to watch incoming http requests in real-time.
+A real-time HTTP log monitor similar to ApacheTop, written in Rust. This tool allows you to watch incoming http requests in real-time. Purpose - research on web crawlers.
 
 ## Features
 
 - Processes http log data in real-time through pipe from `tail -f`
 - Displays overall statistics (requests per second, total bytes, status code distribution)
+
+## Roadmap
+
+- Filtering by Crawler bots to research on crawlers
+- Indicate "bad" crawlers
 
 ## Installation
 
@@ -85,7 +90,7 @@ COUNT    IP              STATUS     PATH                                    USER
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+GNU v3
 
 ## Contributing
 
