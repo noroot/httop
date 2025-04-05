@@ -1,0 +1,10 @@
+[package]
+name = "httop"
+version = "0.1.0"
+edition = "2024"
+authors = ["Dmitry Ro <public@falsetrue.io>"]
+description = "A real-time HTTP log monitor similar to ApacheTop"
+
+[dependencies]
+regex = "1.9.3"
+chrono = "0.4.30"
